@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "PVT Canada",
+  "description": "Helps to get the Canadian Working Holidy programm",
+  "version": "1.0",
+  "permissions": [
+   "tabs","https://kompass-iec-eic.international.gc.ca/*",
+   "activeTab"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png"
+ 	},
+	"background":{
+		"scripts": ["main.js"],
+		"persistent": false
+	}
+}
